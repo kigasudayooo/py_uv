@@ -1,0 +1,60 @@
+# data for python-econometrics
+#gapminder>=0.1
+#py4etrics==0.1.7
+#wooldridge==0.4.4
+
+# base
+
+matplotlib==3.7.2
+japanize_matplotlib
+seaborn
+numpy==1.24.4
+pandas==1.5.3
+jupyter
+joblib
+see==1.4.1
+
+#for parquet
+pyarrow
+fastparquet
+
+numba==0.57.1
+scipy==1.11.1
+statsmodels==0.14.0
+lmdiag==0.3.7
+linearmodels==5.1
+
+# for data-vis
+ydata-profiling
+
+# for ML
+lightgbm==4.0.0
+optuna
+scikit-learn
+imblearn
+xgboost
+catboost
+
+# for causal inference
+dowhy
+pygraphviz
+econml
+## causal_inference_for_brave_and_true
+doubleml
+toolz
+cvxpy
+graphviz
+causalinference
+
+# bayes
+pymc3
+
+# others
+polars
+## for time series with polars-type data
+#functime
+
+## Update requirements.txt for 'ibis-framework'
+### https://ibis-project.org/
+### for multi-flamework for table data
+ibis-framework
